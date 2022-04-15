@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>method on LIU JunYang</title>
+    <link>https://billiewalt.github.io/tags/method/</link>
+    <description>Recent content in method on LIU JunYang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;https://github.com/billiewalt/&#34;&gt;Liu JunYang&lt;/a&gt; 
+</copyright>
+    <lastBuildDate>Tue, 29 Mar 2022 13:11:22 +0800</lastBuildDate><atom:link href="https://billiewalt.github.io/tags/method/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reference to build Blogs with Hugo</title>
+      <link>https://billiewalt.github.io/posts/hugo-launch/</link>
+      <pubDate>Tue, 29 Mar 2022 13:11:22 +0800</pubDate>
+      
+      <guid>https://billiewalt.github.io/posts/hugo-launch/</guid>
+      <description>第一步：下载并安装hugo 在hugo官网下载Windows安装包；
+在D盘中新建一个名为“hugo”的文件夹，并将下载好的hugo安装包解压至此文件夹；
+第二步：添加环境变量 右键点击此电脑，选择属性选择左侧的“高级系统设置” 选择“环境变量” 在系统变量中找到“Path”,点击编辑 输入D:\hugo 一直按“确定”至退出 点击桌面左下角的“开始”，输入cmd,点击命令提示符，输入hugo version，查看hugo是否安装成功，出现如下图片，则安装成功
+第三步：安装并配置Git 安装git： 将此地址&amp;quot;http://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe]&amp;quot;粘贴至迅雷下载git,下载好后进行默认安装，安装完成之后在命令对话框中输入git，当出现如下图所示，则证明git安装成功： 配置git： 在命令对话框中输入： git config --global user.name &amp;quot;xxxx&amp;quot;、git config --global user.email &amp;quot;xxxx.com&amp;quot; 其中“xxxx“”是你自定义的名字。配置好后可以用git config -l，查看是否配置完成；
+第四步：创建个人博客文件夹 通过命令提示符窗口，进入D盘的hugo文件夹创建个人博客文件夹
+输入hugo new site myblog，回车后出现如下图所示，
+第五步：下载博客主题 进入Hugo博客主题库挑选自己喜欢的博客模板，这里以anatole为例。 拉下网页，找到 git clone https://github.com/lxndrblz/anatole.git anatole 语句。在命令指示符D盘目录输入cd hugo\myblog\themes，然后输入之前找到的 git clone https://github.com/lxndrblz/anatole.git anatole，结果如下图所示，下载完成
+第六步：在本地启动个人博客
+在cmd命令指示符D:\hugo\myblog目录下输入hugo server -t anatole &amp;ndash;buildDrafts，出现下图 找到命令指示符中的 http://localhost:1313/，此时使用此地址，便可以通过浏览器来访问个人博客。
+第六步：个人博客部署到远端服务器 在github创建一个远端仓库：登录github，在自己的页面上新建一个个人仓库，新仓库命名必须是自己的github账号名字且是纯小写在加上后缀“github.io” 因为我之前创建过了，所以会显示已存在，如果没创建过则不会出现提示。 在myblog目录下，cmd命令行中输入hugo --theme=anatole --baseUrl=&amp;quot;https://xxxxx.github.io/&amp;quot; --buildDrafts,其中xxxxx为自己的github账号名。 代码执行后就会在myblog文件夹下生成一个public文件夹
+接下来把public文件推送到github上。在命令提示符中切换到public根目录下依次输入：（其中xxxxx为自己的github账号名）
+git init,点击回车 git add,点击回车 .git commit -m&amp;ldquo;创建完成&amp;rdquo;,点击回车 git remote add orign https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
