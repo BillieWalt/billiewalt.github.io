@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>billiewalt on LIU JunYang</title>
-    <link>http://billiewalt.github.io/authors/billiewalt/</link>
+    <link>https://billiewalt.github.io/authors/billiewalt/</link>
     <description>Recent content in billiewalt on LIU JunYang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://github.com/billiewalt/&#34;&gt;Liu JunYang&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Tue, 29 Mar 2022 13:11:22 +0800</lastBuildDate><atom:link href="http://billiewalt.github.io/authors/billiewalt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Mar 2022 13:11:22 +0800</lastBuildDate><atom:link href="https://billiewalt.github.io/authors/billiewalt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reference to build Blogs with Hugo</title>
-      <link>http://billiewalt.github.io/posts/hugo-launch/</link>
+      <link>https://billiewalt.github.io/posts/hugo-launch/</link>
       <pubDate>Tue, 29 Mar 2022 13:11:22 +0800</pubDate>
       
-      <guid>http://billiewalt.github.io/posts/hugo-launch/</guid>
+      <guid>https://billiewalt.github.io/posts/hugo-launch/</guid>
       <description>第一步：下载并安装hugo 在hugo官网下载Windows安装包；
 在D盘中新建一个名为“hugo”的文件夹，并将下载好的hugo安装包解压至此文件夹；
 第二步：添加环境变量 右键点击此电脑，选择属性选择左侧的“高级系统设置” 选择“环境变量” 在系统变量中找到“Path”,点击编辑 输入D:\hugo 一直按“确定”至退出 点击桌面左下角的“开始”，输入cmd,点击命令提示符，输入hugo version，查看hugo是否安装成功，出现如下图片，则安装成功
@@ -31,10 +31,10 @@ git init,点击回车 git add,点击回车 .git commit -m&amp;ldquo;创建完成
     
     <item>
       <title>How to set up C/C&#43;&#43; development environment in Eclipse</title>
-      <link>http://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</link>
+      <link>https://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</link>
       <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</guid>
+      <guid>https://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</guid>
       <description>If you are a C/C++ developer looking for C/C++ IDE to work with, you can consider Eclipse-based IDE. Eclipse boasts of an extensible plug-in system for customizing IDE to support various programming languages including Java, C/C++, etc. Eclipse CDT is one such plugin which converts Eclipse into a fully functional IDE for C/C++ developers.
 Eclipse CDT has the following features to help developing C/C++ programs.
   Standard make build, as well as managed build with various toolchains.</description>
@@ -42,20 +42,20 @@ Eclipse CDT has the following features to help developing C/C++ programs.
     
     <item>
       <title>Markdown Guide Basic Syntax</title>
-      <link>http://billiewalt.github.io/posts/markdown/</link>
+      <link>https://billiewalt.github.io/posts/markdown/</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://billiewalt.github.io/posts/markdown/</guid>
+      <guid>https://billiewalt.github.io/posts/markdown/</guid>
       <description>Overview Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
 Headings To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (&amp;lt;h3&amp;gt;), use three number signs (e.g., ### My Header).</description>
     </item>
     
     <item>
       <title>Zima Blue - Alastair Reynolds</title>
-      <link>http://billiewalt.github.io/posts/zima-blue/</link>
+      <link>https://billiewalt.github.io/posts/zima-blue/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://billiewalt.github.io/posts/zima-blue/</guid>
+      <guid>https://billiewalt.github.io/posts/zima-blue/</guid>
       <description>作者简介：阿拉斯泰尔·雷诺兹 【英】 Alastair Reynolds
 1966年生。科幻作家，被誉为“太空歌剧大师”。曾在纽卡斯尔大学攻读物理学和天文学，并于圣安德鲁斯大学获得天文学博士学位。1991年，雷诺兹移居荷兰，并在当地的欧洲空间与技术研究中心（隶属欧洲航天局）工作，直到2004年之后才开始专职写作。雷诺兹的作品曾获英国科幻小说奖，并多次入围雨果奖、阿瑟·C·克拉克奖、约翰·W·坎贝尔纪念奖、西奥多·斯特金奖和轨迹奖。
 第二章 齐马蓝 序 第一个星期后，人们开始驶离小岛。泳池周围的观景台一天比一天空旷。大型游船向星际太空返航。艺术狂人、解说员和评论家们在威尼斯收拾行囊。他们的失望如瘴气笼罩在潟湖之上。

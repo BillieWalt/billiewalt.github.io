@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C/C&#43;&#43; on LIU JunYang</title>
-    <link>http://billiewalt.github.io/tags/c/c&#43;&#43;/</link>
+    <link>https://billiewalt.github.io/tags/c/c&#43;&#43;/</link>
     <description>Recent content in C/C&#43;&#43; on LIU JunYang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://github.com/billiewalt/&#34;&gt;Liu JunYang&lt;/a&gt; 
-</copyright><atom:link href="http://billiewalt.github.io/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://billiewalt.github.io/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up C/C&#43;&#43; development environment in Eclipse</title>
-      <link>http://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</link>
+      <link>https://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</link>
       <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</guid>
+      <guid>https://billiewalt.github.io/posts/c&#43;&#43;-eclipse/</guid>
       <description>If you are a C/C++ developer looking for C/C++ IDE to work with, you can consider Eclipse-based IDE. Eclipse boasts of an extensible plug-in system for customizing IDE to support various programming languages including Java, C/C++, etc. Eclipse CDT is one such plugin which converts Eclipse into a fully functional IDE for C/C++ developers.
 Eclipse CDT has the following features to help developing C/C++ programs.
   Standard make build, as well as managed build with various toolchains.</description>
