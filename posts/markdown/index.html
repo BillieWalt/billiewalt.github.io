@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  
+><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Markdown Guide Basic Syntax | LIU JunYang</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.1" />
+<link rel="stylesheet" href="http://billiewalt.github.io/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css">
+<script defer src="http://billiewalt.github.io/js/eureka.min.f1639ee98d6cbd85b2b5f034d27320da962002ff83159ed4e01dbc5948c42a1ab26c2d6e74c66e93f5cec4d24dbd166d.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&amp;family=Noto&#43;Serif&#43;SC:wght@400;600;700&amp;display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/base16/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"
+   crossorigin></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/dart.min.js"
+     crossorigin></script>
+<link rel="stylesheet" href="http://billiewalt.github.io/css/highlightjs.min.2958991528e43eb6fc9b8c4f2b8e052f79c4010718e1d1e888a777620e9ee63021c2c57ec7417a3108019bb8c41943e6.css" media="print" onload="this.media='all';this.onload=null">
+
+
+<script defer type="text/javascript" src="http://billiewalt.github.io/js/fontawesome.min.7a517ee79e430ca7b6d02ec6f4f2b39bcb6987e39d03cdf8b7dc274c0c00e2f141cddc618cf5a974dd4919d5b16af9a1.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+   integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" 
+  integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js"
+   integrity="sha384-&#43;XBljXPPiv&#43;OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.14.0/dist/mermaid.min.js" 
+  integrity="sha384-atOyb0FxAgN9LyAc6PEf9BjgwLISyansgdH8/VXQH8p2o5vfrRgmGIJ2Sg22L0A0"  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://billiewalt.github.io/images/icon_hucf121c3904a5b46f5c5822e939ea0fff_1837_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://billiewalt.github.io/images/icon_hucf121c3904a5b46f5c5822e939ea0fff_1837_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="The Markdown elements outlined in the original design document.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"http://billiewalt.github.io/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Markdown Guide Basic Syntax",
+      "item":"http://billiewalt.github.io/posts/markdown/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://billiewalt.github.io/posts/markdown/"
+    },
+    "headline": "Markdown Guide Basic Syntax | LIU JunYang","datePublished": "2021-10-04T00:00:00+00:00",
+    "dateModified": "2021-10-05T00:00:00+00:00",
+    "wordCount":  1449 ,
+    "author": {
+        "@type": "Person",
+        "name": ["billiewalt"]
+    },
+    "publisher": {
+        "@type": "Person",
+        "name": "WANG Chucheng",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://billiewalt.github.io/images/icon.png"
+        }
+        },
+    "description": "The Markdown elements outlined in the original design document."
+}
+</script><meta property="og:title" content="Markdown Guide Basic Syntax | LIU JunYang" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="http://billiewalt.github.io/images/icon.png">
+
+
+<meta property="og:url" content="http://billiewalt.github.io/posts/markdown/" />
+
+
+
+<meta property="og:description" content="The Markdown elements outlined in the original design document." />
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="LIU JunYang" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-10-04T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2021-10-05T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+<meta property="article:tag" content="markdown" />
+
+<meta property="article:tag" content="document" />
+
+
+
+
+
+
+  <body class="flex min-h-screen flex-col">
+    <header
+      class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"
+    >
+      <div class="mx-auto w-full max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">LIU JunYang</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">About</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Posts</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Docs</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+    </header>
+    <main class="grow pt-16">
+        <div class="pl-scrollbar">
+          <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
+  
+  
+  <div class="grid grid-cols-2 gap-4 lg:grid-cols-8 lg:pt-12">
+    <div
+      class="lg:col-start-2 bg-secondary-bg col-span-2 rounded px-6 py-8 lg:col-span-6"
+    >
+      <article class="prose">
+  <h1 class="mb-4">Markdown Guide Basic Syntax</h1>
+
+  <div
+  class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
+>
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span
+      >2021-10-04</span
+    >
+  </div>
+  <div class="me-6 my-2">
+    <i class="fas fa-clock me-1"></i>
+    <span>7 min read</span>
+  </div>
+
+  
+    <div class="me-6 my-2">
+      <i class="fas fa-folder me-1"></i>
+      
+        <a href="http://billiewalt.github.io/categories/study/" class="hover:text-eureka"
+          >study</a
+        >
+      
+    </div>
+  
+
+  
+</div>
+
+
+  
+  
+
+  <h2 id="overview">Overview</h2>
+<p>Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.</p>
+<h2 id="headings">Headings</h2>
+<p>To create a heading, add number signs (<code>#</code>) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<code>&lt;h3&gt;</code>), use three number signs (e.g., <code>### My Header</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code># Heading level 1</code></td>
+<td><code>&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
+<td># Heading level 1</td>
+</tr>
+<tr>
+<td><code>## Heading level 2</code></td>
+<td><code>&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
+<td>## Heading level 2</td>
+</tr>
+<tr>
+<td><code>### Heading level 3</code></td>
+<td><code>&lt;h3&gt;Heading level 3&lt;/h3&gt;</code></td>
+<td>### Heading level 3</td>
+</tr>
+<tr>
+<td><code>#### Heading level 4</code></td>
+<td><code>&lt;h4&gt;Heading level 4&lt;/h4&gt;</code></td>
+<td>#### Heading level 4</td>
+</tr>
+<tr>
+<td><code>##### Heading level 5</code></td>
+<td><code>&lt;h5&gt;Heading level 5&lt;/h5&gt;</code></td>
+<td>##### Heading level 5</td>
+</tr>
+<tr>
+<td><code>###### Heading level 6</code></td>
+<td><code>&lt;h6&gt;Heading level 6&lt;/h6&gt;</code></td>
+<td>###### Heading level 6</td>
+</tr>
+</tbody>
+</table>
+<h2 id="paragraphs">Paragraphs</h2>
+<p>To create paragraphs, use a blank line to separate one or more lines of text.</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>I really like using Markdown.&lt;br&gt;&lt;br&gt;I think I'll use it to format all of my documents from now on.</code></td>
+<td><code>&lt;p&gt;I really like using Markdown.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;I think I'll use it to format all of my documents from now on.&lt;/p&gt;</code></td>
+<td>I really like using Markdown.I think I&rsquo;ll use it to format all of my documents from now on.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="line-breaks">Line Breaks</h2>
+<p>To create a line break or new line (<code>&lt;br&gt;</code>), end a line with two or more spaces, and then type return.</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>This is the first line.  &lt;br&gt;And this is the second line.</code></td>
+<td><code>&lt;p&gt;This is the first line.&lt;br&gt;&lt;br&gt;And this is the second line.&lt;/p&gt;</code></td>
+<td>This is the first line.<br>And this is the second line.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="emphasis">Emphasis</h2>
+<p>You can add emphasis by making text bold or italic.</p>
+<h3 id="bold">Bold</h3>
+<p>To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>I just love **bold text**.</code></td>
+<td><code>I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+<td>I just love <strong>bold text</strong>.</td>
+</tr>
+<tr>
+<td><code>I just love __bold text__.</code></td>
+<td><code>I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+<td>I just love <strong>bold text</strong>.</td>
+</tr>
+<tr>
+<td><code>Love**is**bold</code></td>
+<td><code>Love&lt;strong&gt;is&lt;/strong&gt;bold</code></td>
+<td>Love<strong>is</strong>bold</td>
+</tr>
+</tbody>
+</table>
+<h3 id="italic">Italic</h3>
+<p>To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Italicized text is the *cat's meow*.</code></td>
+<td><code>Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+<td>Italicized text is the <em>cat’s meow</em>.</td>
+</tr>
+<tr>
+<td><code>Italicized text is the _cat's meow_.</code></td>
+<td><code>Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+<td>Italicized text is the <em>cat’s meow</em>.</td>
+</tr>
+<tr>
+<td><code>A*cat*meow</code></td>
+<td><code>A&lt;em&gt;cat&lt;/em&gt;meow</code></td>
+<td>A<em>cat</em>meow</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bold-and-italic">Bold and Italic</h3>
+<p>To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>This text is ***really important***.</code></td>
+<td><code>This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+<td>This text is <em><strong>really important</strong></em>.</td>
+</tr>
+<tr>
+<td><code>This text is ___really important___.</code></td>
+<td><code>This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+<td>This text is <em><strong>really important</strong></em>.</td>
+</tr>
+<tr>
+<td><code>This text is __*really important*__.</code></td>
+<td><code>This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+<td>This text is <em><strong>really important</strong></em>.</td>
+</tr>
+<tr>
+<td><code>This text is **_really important_**.</code></td>
+<td><code>This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+<td>This text is <em><strong>really important</strong></em>.</td>
+</tr>
+<tr>
+<td><code>This is really***very***important text.</code></td>
+<td><code>This is really&lt;em&gt;&lt;strong&gt;very&lt;/strong&gt;&lt;/em&gt;important text.</code></td>
+<td>This is really<em><strong>very</strong></em>important text.</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>Note:</strong> The order of the <code>em</code> and <code>strong</code> tags might be reversed depending on the Markdown processor you&rsquo;re using.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>To create a blockquote, add a <code>&gt;</code> in front of a paragraph.</p>
+<pre><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+<h3 id="blockquotes-with-multiple-paragraphs">Blockquotes with Multiple Paragraphs</h3>
+<p>Blockquotes can contain multiple paragraphs. Add a <code>&gt;</code> on the blank lines between the paragraphs.</p>
+<pre><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<h3 id="nested-blockquotes">Nested Blockquotes</h3>
+<p>Blockquotes can be nested. Add a <code>&gt;&gt;</code> in front of the paragraph you want to nest.</p>
+<pre><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h3 id="blockquotes-with-other-elements">Blockquotes with Other Elements</h3>
+<p>Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.</p>
+<pre><code>&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<blockquote>
+<h4 id="the-quarterly-results-look-great">The quarterly results look great!</h4>
+<ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+<h4 id="paragraphs-1">Paragraphs</h4>
+<pre><code>* This is the first list item.
+* Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+* And here's the third list item.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here’s the second list item.</p>
+<p>I need to add another paragraph below the second list item.</p>
+</li>
+<li>
+<p>And here’s the third list item.</p>
+</li>
+</ul>
+<h4 id="blockquotes-1">Blockquotes</h4>
+<pre><code>* This is the first list item.
+* Here's the second list item.
+
+    &gt; A blockquote would look great below the second list item.
+
+* And here's the third list item.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here’s the second list item.</p>
+<blockquote>
+<p>A blockquote would look great below the second list item.</p>
+</blockquote>
+</li>
+<li>
+<p>And here’s the third list item.</p>
+</li>
+</ul>
+<h4 id="code-blocks">Code Blocks</h4>
+<p><a href="https://www.markdownguide.org/basic-syntax?msclkid=27f17510bd5911ec9b9537a0b05f533d#code-blocks">Code blocks</a> are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.</p>
+<pre><code>1. Open the file.
+2. Find the following code block on line 21:
+
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt;Test&lt;/title&gt;
+          &lt;/head&gt;
+
+3. Update the title to match the name of your website.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<ol>
+<li>
+<p>Open the file.</p>
+</li>
+<li>
+<p>Find the following code block on line 21:</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Test&lt;/title&gt;
+  &lt;/head&gt;
+</code></pre>
+</li>
+<li>
+<p>Update the title to match the name of your website.</p>
+</li>
+</ol>
+<h4 id="lists">Lists</h4>
+<p>You can nest an unordered list in an ordered list, or vice versa.</p>
+<pre><code>1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+</code></pre>
+<p>The rendered output looks like this:</p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ul>
+<li>Indented item</li>
+<li>Indented item</li>
+</ul>
+</li>
+<li>Fourth item</li>
+</ol>
+<h2 id="code">Code</h2>
+<p>To denote a word or phrase as code, enclose it in backticks (<code>`</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>At the command prompt, type `nano`.</code></td>
+<td><code>At the command prompt, type &lt;code&gt;nano&lt;/code&gt;.</code></td>
+<td>At the command prompt, type <code>nano</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="escaping-backticks">Escaping Backticks</h3>
+<p>If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Rendered Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>``Use `code` in your Markdown file.``</code></td>
+<td><code>&lt;code&gt;Use `code` in your Markdown file.&lt;/code&gt;</code></td>
+<td><code>Use `code` in your Markdown file.</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="code-blocks-1">Code Blocks</h3>
+<p>To create code blocks, indent every line of the block by at least four spaces or one tab.</p>
+<pre><code>    &lt;html&gt;
+      &lt;head&gt;
+      &lt;/head&gt;
+    &lt;/html&gt;
+</code></pre>
+<p>The rendered output looks like this:</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+</code></pre>
+<p> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="https://www.markdownguide.org/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.</p>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<p>To create a horizontal rule, use three or more asterisks (<code>***</code>), dashes (<code>---</code>), or underscores (<code>___</code>) on a line by themselves.</p>
+<pre><code>***
+
+---
+
+_________________
+</code></pre>
+<p>The rendered output of all three looks identical:</p>
+<hr>
+<h2 id="escaping-characters">Escaping Characters</h2>
+<p>To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (<code>\</code>) in front of the character.</p>
+<pre><code>\* Without the backslash, this would be a bullet in an unordered list.
+</code></pre>
+<p>The rendered output looks like this:</p>
+<ul>
+<li>Without the backslash, this would be a bullet in an unordered list.</li>
+</ul>
+<h3 id="characters-you-can-escape">Characters You Can Escape</h3>
+<p>You can use a backslash to escape the following characters.</p>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\</td>
+<td>backslash</td>
+</tr>
+<tr>
+<td>`</td>
+<td>backtick (see also <a href="https://www.markdownguide.org/basic-syntax?msclkid=27f17510bd5911ec9b9537a0b05f533d#escaping-backticks">escaping backticks in code</a>)</td>
+</tr>
+<tr>
+<td>*</td>
+<td>asterisk</td>
+</tr>
+<tr>
+<td>_</td>
+<td>underscore</td>
+</tr>
+<tr>
+<td>{ }</td>
+<td>curly braces</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>brackets</td>
+</tr>
+<tr>
+<td>&lt; &gt;</td>
+<td>angle brackets</td>
+</tr>
+<tr>
+<td>( )</td>
+<td>parentheses</td>
+</tr>
+<tr>
+<td>#</td>
+<td>pound sign</td>
+</tr>
+<tr>
+<td>+</td>
+<td>plus sign</td>
+</tr>
+<tr>
+<td>-</td>
+<td>minus sign (hyphen)</td>
+</tr>
+<tr>
+<td>.</td>
+<td>dot</td>
+</tr>
+<tr>
+<td>!</td>
+<td>exclamation mark</td>
+</tr>
+<tr>
+<td>|</td>
+<td>pipe (see also <a href="https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+
+      
+        <div class="my-4">
+    
+    <a href="http://billiewalt.github.io/tags/markdown/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 me-2 hover:text-eureka">#markdown</a>
+    
+    <a href="http://billiewalt.github.io/tags/document/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 me-2 hover:text-eureka">#document</a>
+    
+</div>
+      
+
+      
+
+
+
+      
+        <div class="py-2">
+  
+    <div class="my-8 flex flex-col items-center md:flex-row">
+      <a href="http://billiewalt.github.io/authors/billiewalt/" class="md:me-4 text-primary-text h-24 w-24">
+        
+        
+          <i class="fas fa-user-circle fa-6x"></i>
+        
+      </a>
+      <div class="mt-4 w-full md:mt-0 md:w-auto">
+        <a
+          href="http://billiewalt.github.io/authors/billiewalt/"
+          class="mb-2 block border-b pb-1 text-lg font-bold"
+        >
+          <h3>billiewalt</h3>
+        </a>
+        <span class="block pb-2"></span>
+        
+      </div>
+    </div>
+  
+</div>
+
+      
+
+      
+  <div
+    class="-mx-2 mt-4 flex flex-col border-t px-2 pt-4 md:flex-row md:justify-between"
+  >
+    <div>
+      
+        <span class="text-primary-text block font-bold"
+          >Previous</span
+        >
+        <a href="http://billiewalt.github.io/posts/c&#43;&#43;-eclipse/" class="block">How to set up C/C&#43;&#43; development environment in Eclipse</a>
+      
+    </div>
+    <div class="mt-4 md:mt-0 md:text-right">
+      
+        <span class="text-primary-text block font-bold">Next</span>
+        <a href="http://billiewalt.github.io/posts/zima-blue/" class="block">Zima Blue - Alastair Reynolds</a>
+      
+    </div>
+  </div>
+
+
+      
+
+
+
+    </div>
+    
+
+    
+    
+  </div>
+
+  
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        hljs.highlightAll();
+      });
+    </script>
+
+          </div>
+        </div>
+      
+    </main>
+    <footer class="pl-scrollbar">
+      <div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2022 <a href="https://github.com/billiewalt/">Liu JunYang</a> 
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+  </body>
+</html>

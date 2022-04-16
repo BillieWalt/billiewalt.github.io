@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on LIU JunYang</title>
-    <link>https://billiewalt.github.io/docs/</link>
+    <link>http://billiewalt.github.io/docs/</link>
     <description>Recent content in Docs on LIU JunYang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://github.com/billiewalt/&#34;&gt;Liu JunYang&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://billiewalt.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://billiewalt.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

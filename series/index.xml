@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on LIU JunYang</title>
-    <link>https://billiewalt.github.io/series/</link>
+    <link>http://billiewalt.github.io/series/</link>
     <description>Recent content in Series on LIU JunYang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://github.com/billiewalt/&#34;&gt;Liu JunYang&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://billiewalt.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://billiewalt.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>favorite</title>
-      <link>https://billiewalt.github.io/series/favorite/</link>
+      <link>http://billiewalt.github.io/series/favorite/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://billiewalt.github.io/series/favorite/</guid>
+      <guid>http://billiewalt.github.io/series/favorite/</guid>
       <description></description>
     </item>
     
